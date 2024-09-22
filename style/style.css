@@ -1,0 +1,94 @@
+@import './reset.css';
+
+body {}
+
+
+footer,
+section {
+  padding: 50px 0;
+}
+
+header {
+  padding: 200px 0;
+  background-image: url(../images/background.jpg);
+  background-size: cover;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.btn-itd {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto;
+  padding: 8px 10px;
+  color: white;
+  background-color: #4d6c9b;
+}
+
+.item {
+  background-color: #f8f9fa;
+  color: #fff;
+  padding: 5px;
+}
+
+.list-item {
+  background-color: #000;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.link {
+  flex-basis: 280px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 5px;
+  transition: scale 0.3s ease-in-out;
+}
+
+.link-github {
+  color: red;
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+  line-height: 2.5;
+  font-size: 1.5rem;
+}
+
+.card-title {
+  color: #000;
+}
+
+.link img {
+  width: 270px;
+  min-height: 408px;
+  border-radius: 10px;
+}
+
+.link:hover {
+  scale: 1.05;
+}
+
+.name-site {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.card-img {
+  height: 383px;
+
+}
+
+.card-link {
+  font-size: 20px;
+}

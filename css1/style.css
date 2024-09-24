@@ -26,6 +26,10 @@ body {
     padding: 5px;
     overflow: hidden;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
 }
 
 .link a {
@@ -44,6 +48,7 @@ body {
 
 .link__wrapper {
     display: flex;
+    flex-direction: column;
 }
 
 .menu .link-github {

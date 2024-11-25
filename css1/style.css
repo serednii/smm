@@ -11,6 +11,17 @@ body {
     max-width: 1230px;
 }
 
+.title__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title__wrapper a {
+    display: block;
+    margin: initial;
+    width: auto;
+}
+
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -25,11 +36,9 @@ body {
     border: 2px solid black;
     padding: 5px;
     overflow: hidden;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .link a {
